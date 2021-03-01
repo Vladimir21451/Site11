@@ -76,7 +76,7 @@ document.getElementById('btnEqual').addEventListener('click', function () {
                 document.body.style.backgroundColor = 'lightblue';
                 break;
             case 1:
-                document.body.style.backgroundImage='url("./minjon.webp")';
+                document.body.style.backgroundColor = "darkblue";
                 break;
             case 2:
                 document.body.style.backgroundImage='url(/калейдоскоп.webp)';
