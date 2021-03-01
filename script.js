@@ -76,7 +76,7 @@ document.getElementById('btnEqual').addEventListener('click', function () {
                 document.body.style.backgroundImage='url("калейдоскоп.webp")';
                 break;
             case 1:
-                document.body.style.backgroundImage='url("/minjon.webp")';
+                document.body.style.backgroundImage='url("./minjon.webp")';
                 break;
             case 2:
                 document.body.style.backgroundImage='url(/калейдоскоп.webp)';
