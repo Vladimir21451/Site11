@@ -76,13 +76,13 @@ document.getElementById('btnEqual').addEventListener('click', function () {
                 document.body.style.backgroundImage='url("калейдоскоп.webp")';
                 break;
             case 1:
-                document.body.style.backgroundImage='url("./minjon.webp")';
+                document.body.style.backgroundImage='url("/minjon.webp")';
                 break;
             case 2:
-                document.body.style.backgroundImage='url("./калейдоскоп.webp")';
+                document.body.style.backgroundImage='url(/калейдоскоп.webp)';
                 break;
             case 3:
-                document.body.style.backgroundImage='url("./триповый.webp")';  
+                document.body.style.backgroundImage='url("/триповый.webp")';  
         }
        // document.body.style.backgroundColor='lightgreen';
        // document.body.style.backgroundImage = 'url(images/калейдоскоп.webp)';
