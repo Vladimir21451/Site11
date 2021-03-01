@@ -73,7 +73,7 @@ document.getElementById('btnEqual').addEventListener('click', function () {
         let rd = Math.round(Math.random() *3);
         switch (rd){
             case 0:
-                document.body.style.backgroundImage='url("./калейдоскоп.webp")';
+                document.body.style.backgroundImage='url("калейдоскоп.webp")';
                 break;
             case 1:
                 document.body.style.backgroundImage='url("./minjon.webp")';
