@@ -79,10 +79,10 @@ document.getElementById('btnEqual').addEventListener('click', function () {
                 document.body.style.backgroundColor = "darkblue";
                 break;
             case 2:
-                document.body.style.backgroundImage='url(/калейдоскоп.webp)';
+                document.body.style.backgroundColor = 'lightyellow';
                 break;
             case 3:
-                document.body.style.backgroundImage='url("/триповый.webp")';  
+                document.body.style.backgroundImag = 'lightcyan';  
         }
        // document.body.style.backgroundColor='lightgreen';
        // document.body.style.backgroundImage = 'url(images/калейдоскоп.webp)';
