@@ -73,7 +73,7 @@ document.getElementById('btnEqual').addEventListener('click', function () {
         let rd = Math.round(Math.random() *3);
         switch (rd){
             case 0:
-                document.body.style.backgroundColr = 'lightblue';
+                document.body.style.backgroundColor = 'lightblue';
                 break;
             case 1:
                 document.body.style.backgroundImage='url("./minjon.webp")';
