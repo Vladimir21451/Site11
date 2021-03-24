@@ -126,46 +126,50 @@ switch(chl.length){
         chislo = units[answerNumber];
     break;
     case 2:
-        if (chislo < 20){
+       /* if (chislo < 20){
           chislo = units[chislo];
         } 
         else{
            chislo =  dazens[parseInt(chl[0])] + ' ' +  units[chislo % 10]
           // alert('Exit' + '' + chislo);
-        }
+        }*/
+        chislo = (chislo < 20)? units[chislo]:  dazens[parseInt(chl[0])] + ' ' +  units[chislo % 10];
     break;
     case 3:
         dva = parseInt(chl[1] + chl[2]);
-        if (dva < 20){
+      /*  if (dva < 20){
             chislo = units[dva];
           } 
           else{
              chislo =  dazens[parseInt(chl[1])] + ' ' +  units[dva % 10]
             // alert('Exit' + '' + chislo);
-          }
+          }*/
+          chislo = (dva < 20)? units[dva]:  dazens[parseInt(chl[1])] + ' ' +  units[dva % 10];
           chislo = hundreds[chl[0]] + ' ' + chislo;
      break;
     case 4:
         dva =  parseInt(chl[2] + chl[3]);
-        if (dva < 20){
+       /* if (dva < 20){
             chislo = units[dva];
           } 
           else{
              chislo =  dazens[parseInt(chl[2])] + ' ' +  units[dva % 10]
             // alert('Exit' + '' + chislo);
-          }
+          }*/
+          chislo = (dva < 20)? units[dva]:dazens[parseInt(chl[2])] + ' ' +  units[dva % 10];
           chislo = thousands[chl[0]] + ' ' + hundreds[chl[1]] + ' ' + chislo;
           
     break;
     case 5:
         dva =  parseInt(chl[3] + chl[4]);
-        if (dva < 20){
+       /* if (dva < 20){
             chislo = units[dva];
           } 
           else{
              chislo =  dazens[parseInt(chl[3])] + ' ' +  units[dva % 10]
             // alert('Exit' + '' + chislo);
-          }
+          }*/
+          chislo = (dva < 20)?  units[dva]:dazens[parseInt(chl[3])] + ' ' +  units[dva % 10];
           chislo = hundreds[chl[2]] + ' ' + chislo;
          // alert(chislo.toString());
           dva = parseInt(chl[0] + chl[1]);
